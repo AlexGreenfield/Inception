@@ -1,2 +1,1 @@
-# Inception
-42 School project for learning Docker
+*This project has been created as part of the 42 curriculum by acastrov*
