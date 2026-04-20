@@ -1,9 +1,9 @@
 ## sshd_config
-- Port 4343
+- Port 2222
 - PermitRootLogin no
 
 ## ssh_config
-- Port 4343
+- Port 2222
 
 ## Host commands
  - Connection `ssh localhost -p 4343`
