@@ -10,14 +10,18 @@ kanban-plugin: board
 
 ## WIP
 
-- [ ] `ssh localhost -p 4343` not working on host
 
 
 ## Done
 
+**Complete**
 
 
+***
 
+## Archive
+
+- [ ] `ssh localhost -p 4343` not working on host
 
 %% kanban:settings
 ```
