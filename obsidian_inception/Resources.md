@@ -10,3 +10,6 @@
 ### Setting up a VM
 - [inceptionVm-guide](https://github.com/Bakr-1/inceptionVm-guide?tab=readme-ov-file) note: guide on a headless debian to use on the vm, in order to defend the project, further configuration on ssh is needed. (DEBIAN) (Following this one)
 - [Vikingu-del Inception-Guide](https://github.com/Vikingu-del/Inception-Guide) Alpine Linux
+## Articles
+### Docker
+- [Getting started with Docker and Kubernetes: A beginners guide](https://www.educative.io/blog/docker-kubernetes-beginners-guide)
