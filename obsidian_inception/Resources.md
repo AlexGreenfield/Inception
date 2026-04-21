@@ -17,3 +17,4 @@
 ## Documentation
 ### Docker
 - [Running containers](https://fabiensanglard.net/three_books_update/)
+- [docker conainer run](https://docs.docker.com/reference/cli/docker/container/run/)
