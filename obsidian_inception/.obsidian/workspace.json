@@ -39,20 +39,14 @@
             "id": "29c231fcaab90593",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "To do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Resources.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "To do"
+              "icon": "lucide-file",
+              "title": "Resources"
             }
           }
         ],
@@ -222,10 +216,10 @@
   },
   "active": "29c231fcaab90593",
   "lastOpenFiles": [
-    "Resources.md",
     "SSH/SSH Config on VM.md",
-    "SSH/Secure Shell.md",
     "To do.md",
+    "Resources.md",
+    "SSH/Secure Shell.md",
     "SSH",
     "Welcome.md"
   ]
