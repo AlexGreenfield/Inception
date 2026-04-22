@@ -43,7 +43,16 @@ ENTRYPOINT	["sh", "setup_nginx.sh"]
 - `ENTRYPOINT ["executable", "param1", "param2"]` (exec form)
 - `ENTRYPOINT command param1 param2` (shell form)
 
-**A note on `CMD` and `Entrypoint`:**  
+**A note on `CMD` and `Entrypoint`: **  The `CMD` instruction can be used to provide default arguments to an `ENTRYPOINT` if it is specified in the exec form. This setup allows the entry point to be the main executable and `CMD` to specify additional arguments that can be overridden by the user. IMPORTANT: If you are gonna combine `ENTRYPOINT` and `CMD`, use the exec form in both.
+
+For example, you might have a container that runs a Python application where you always want to use the same application file but allow users to specify different command-line arguments:
+
+```Dockerfile
+ENTRYPOINT ["python", "/app/my_script.py"] 
+CMD ["--default-arg"]
+```
+
+Running `docker run myimage --user-arg` executes `python /app/my_script.py --user-arg`.
 
 ## Documentation
 - [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
