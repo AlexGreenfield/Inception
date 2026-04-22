@@ -27,7 +27,7 @@ ENTRYPOINT	["sh", "setup_nginx.sh"]
 
 **`FROM <image>`:** Allows you to tell Docker which OS your virtual machine should run on. This is the first keyword in your Dockerfile and it is mandatory . The most common ones are debian:buster for Debian or alpine:x:xx for Linux .
 
-**`RUN <command>`:** Allows you to run a command on your virtual machine. The equivalent of connecting via ssh, then typing a bash command, such as: echo “Hello World!”. In general, the first RUN provided in the Dockerfile consist of updating your VM's resources, such as apk, or adding basic utilities like vim , curl or sudo .
+**`RUN <command>`:** Allows you to run a command on your virtual machine. The `RUN` instruction is used in `Dockerfiles` to execute commands that build and configure the [[Docker Image]]. These commands are executed during the image build process, and each `RUN` instruction creates a new layer in the [[Docker Image]]. For example, if you create an image that requires specific software or libraries installed, you would use RUN to execute the necessary installation commands. In general, the first RUN provided in the Dockerfile consist of updating your VM's resources, such as apk, or adding basic utilities like vim , curl or sudo .
 
 **`COPY <host-path> <image-path>`:**  this instruction tells the builder to copy files from the host and put them into the container image. You simply specify where your file to copy is located from the directory where your Dockerfile is located, and then where you want to copy it in your virtual machine.
 
