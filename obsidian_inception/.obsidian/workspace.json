@@ -35,7 +35,8 @@
               "title": "Docker Overwiev"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,7 +201,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "29c231fcaab90593",
+  "active": "56a775a51dbd3ae5",
   "lastOpenFiles": [
     "Resources.md",
     "Docker/Docker Overwiev.md",
