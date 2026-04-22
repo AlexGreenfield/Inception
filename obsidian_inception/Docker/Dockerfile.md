@@ -33,7 +33,7 @@ ENTRYPOINT	["sh", "setup_nginx.sh"]
 
 **`EXPOSE <port-number>`:** this instruction sets configuration on the image that indicates a port the image would like to expose. Note that he instruction `EXPOSED` informs Docker that the container is listening on the specified network ports at runtime. `EXPOSED` does not make the container's ports accessible to the host. Instead, it functions as a type of documentation between the person who builds the image and the person who runs the container, about which ports are intended to be published. To publish the port when running the container, use the -p flag on docker run to publish and map one or more ports, or the -P flag to publish all exposed ports and map them to high-order ports.
 
-**`ENTRYPOINT ["executable", "param1", "param2"]`** An `ENTRYPOINT` allows you to configure a container that will run as an executable. 
+**`ENTRYPOINT ["executable", "param1", "param2"]`** An `ENTRYPOINT` allows you to configure a container that will run as an executable. Command line arguments to `docker run <image>` will be appended after all elements in an exec form `ENTRYPOINT`, and will override all elements specified using CMD. This allows arguments to be passed to the entry point, i.e., `docker run <image> -d` will pass the `-d` argument to the entry point. You can override the `ENTRYPOINT` instruction using the `docker run --entrypoint` flag.
 
 
 ## Documentation
