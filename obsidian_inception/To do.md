@@ -10,11 +10,13 @@ kanban-plugin: board
 
 ## WIP
 
+- [ ] Docker 101
 
 
 ## Done
 
 **Complete**
+- [x] Set VM
 
 
 ***

@@ -8,7 +8,7 @@
 - [vbachele](https://github.com/vbachele/Inception) (WIP)
 - [llescure](https://github.com/llescure/42_Inception)
 ### Setting up a VM
-- [inceptionVm-guide](https://github.com/Bakr-1/inceptionVm-guide?tab=readme-ov-file) note: guide on a headless debian to use on the vm, in order to defend the project, further configuration on ssh is needed. (DEBIAN) (Following this one)
+- [inceptionVm-guide](https://github.com/Bakr-1/inceptionVm-guide?tab=readme-ov-file) note: guide on a headless debian to use on the vm, in order to defend the project, further configuration on ssh is needed.
 - [Vikingu-del Inception-Guide](https://github.com/Vikingu-del/Inception-Guide) Alpine Linux
 ## Articles
 ### Docker

@@ -6,11 +6,11 @@
 
 **Aliases:** `docker build`, `docker builder build`, `docker image build`, `docker buildx b`
 
-## Description
+#### Description
 
 The `docker buildx build` command starts a build using BuildKit.
 
-## Options
+#### Options
 
 | Option | Default | Description |
 |--------|---------|-------------|
