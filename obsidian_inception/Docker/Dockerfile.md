@@ -31,7 +31,7 @@ ENTRYPOINT	["sh", "setup_nginx.sh"]
 
 **`COPY <host-path> <image-path>`:**  this instruction tells the builder to copy files from the host and put them into the container image. You simply specify where your file to copy is located from the directory where your Dockerfile is located, and then where you want to copy it in your virtual machine.
 
-**`EXPOSE <port-number>`:** this instruction sets configuration on the image that indicates a port the image would like to expose. Note that he instruction `EXPOSED` informs Docker that the container is listening on the specified network ports at runtime. `EXPOSED` does not make the container's ports accessible to the host.
+**`EXPOSE <port-number>`:** this instruction sets configuration on the image that indicates a port the image would like to expose. Note that he instruction `EXPOSED` informs Docker that the container is listening on the specified network ports at runtime. `EXPOSED` does not make the container's ports accessible to the host. Instead, it functions as a type of documentation between the person who builds the image and the person who runs the container, about which ports are intended to be published. To publish the port when running the container, use the -p flag on docker run to publish and map one or more ports, or the -P flag to publish all exposed ports and map them to high-order ports.
 
 ## Documentation
 - [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
