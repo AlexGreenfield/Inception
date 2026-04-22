@@ -54,8 +54,23 @@ CMD ["--default-arg"]
 
 Running `docker run myimage --user-arg` executes `python /app/my_script.py --user-arg`.
 
+#### **Command description and use cases**
+
+|**Command**|**Description**|**Use Case**|
+|---|---|---|
+|[CMD](https://docs.docker.com/engine/reference/builder/#cmd)|Defines the default executable of a Docker image. It can be overridden by `docker run` arguments.|Utility images allow users to pass different executables and arguments on the command line.|
+|[ENTRYPOINT](https://docs.docker.com/engine/reference/builder/#entrypoint)|Defines the default executable. It can be overridden by the `“--entrypoint”  docker run` arguments.|Images built for a specific purpose where overriding the default executable is not desired.|
+|[RUN](https://docs.docker.com/engine/reference/builder/#run)|Executes commands to build layers.|Building an image|
+#### **Shell and exec form reference**
+
+|**Form**|**Description**|**Example**|
+|---|---|---|
+|**Shell Form**|Takes the form of `<INSTRUCTION> <COMMAND>`.|`CMD echo TEST` or `ENTRYPOINT echo TEST`|
+|**Exec Form**|Takes the form of `<INSTRUCTION> ["EXECUTABLE", "PARAMETER"]`.|`CMD ["echo", "TEST"]` or `ENTRYPOINT ["echo", "TEST"]`|
+
 ## Documentation
 - [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
 - [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/) 
 ## References
 -  [Grademe Inception Tutorial](https://tuto.grademe.fr/inception/)
+- [Docker Best Practices: Choosing Between RUN, CMD, and ENTRYPOINT](https://www.docker.com/blog/docker-best-practices-choosing-between-run-cmd-and-entrypoint/)
