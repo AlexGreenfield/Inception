@@ -1,5 +1,5 @@
 ## Overview
-Dockerfile acts like a Makefile but with instruction to build a Docker image. It specifies which OS the container will use (Alpine is the most used in this regard), which dependencies does it have to install (NGINX MariaDB...) and which commands does the console have to run in order for the program to run properly. Here's a basic Dockerfile implementation for setting up NGINX.
+Dockerfile acts like a Makefile but with instruction to build a [[Docker Image]]. It specifies which OS the container will use (Alpine is the most used in this regard), which dependencies does it have to install (NGINX MariaDB...) and which commands does the console have to run in order for the program to run properly. Here's a basic Dockerfile implementation for setting up NGINX.
 
 ```Dockerfile
 FROM		alpine:3.12
