@@ -61,6 +61,8 @@ Running `docker run myimage --user-arg` executes `python /app/my_script.py --use
 |[CMD](https://docs.docker.com/engine/reference/builder/#cmd)|Defines the default executable of a Docker image. It can be overridden by `docker run` arguments.|Utility images allow users to pass different executables and arguments on the command line.|
 |[ENTRYPOINT](https://docs.docker.com/engine/reference/builder/#entrypoint)|Defines the default executable. It can be overridden by the `“--entrypoint”  docker run` arguments.|Images built for a specific purpose where overriding the default executable is not desired.|
 |[RUN](https://docs.docker.com/engine/reference/builder/#run)|Executes commands to build layers.|Building an image|
+
+![CMD, ENTRYPOINT and RUN decission(https://www.docker.com/app/uploads/2024/07/2400x1260_run-cmd-entrypoint-1536x806.png)
 #### **Shell and exec form reference**
 
 |**Form**|**Description**|**Example**|
