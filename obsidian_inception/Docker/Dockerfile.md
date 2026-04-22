@@ -39,12 +39,11 @@ ENTRYPOINT	["sh", "setup_nginx.sh"]
 - `CMD command param1 param2` (shell form)
 	
 
-**`ENTRYPOINT`** The ENTRYPOINT instruction sets the default executable for the container. Any arguments supplied to the docker run command are appended to the ENTRYPOINT command. Note: Use ENTRYPOINT when you need your container to always run the same base command, and you want to allow users to append additional commands at the end. One caveat is that ENTRYPOINT can be overridden on the docker run command line by supplying the --entrypoint flag. ENTRYPOINT has two possible forms, shell or exec forms:
+**`ENTRYPOINT`** The ENTRYPOINT instruction sets the default executable for the container. Any arguments supplied to the docker run command are appended to the ENTRYPOINT command. Note: Use ENTRYPOINT when you need your container to always run the same base command, and you want to allow users to append additional commands at the end. One caveat is that ENTRYPOINT can be overridden on the docker run command line by supplying the --entrypoint flag. If not ENTRYPOINT has two possible forms, shell or exec forms:
 - `ENTRYPOINT ["executable", "param1", "param2"]` (exec form)
 - `ENTRYPOINT command param1 param2` (shell form)
 
-** A note for `CMD` and `ENTRYPOINT`: ** 
-
+**A note on `CMD` and `Entrypoint`:**  
 
 ## Documentation
 - [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
