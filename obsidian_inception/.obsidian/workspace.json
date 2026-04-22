@@ -56,8 +56,8 @@
               "type": "markdown",
               "state": {
                 "file": "Docker/Docker Overwiev.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Docker Overwiev"
@@ -228,7 +228,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "24ddcb338a88884e",
+  "active": "56a775a51dbd3ae5",
   "lastOpenFiles": [
     "Resources.md",
     "Docker/Docker Overwiev.md",
