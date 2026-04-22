@@ -62,7 +62,7 @@ Running `docker run myimage --user-arg` executes `python /app/my_script.py --use
 |[ENTRYPOINT](https://docs.docker.com/engine/reference/builder/#entrypoint)|Defines the default executable. It can be overridden by the `“--entrypoint”  docker run` arguments.|Images built for a specific purpose where overriding the default executable is not desired.|
 |[RUN](https://docs.docker.com/engine/reference/builder/#run)|Executes commands to build layers.|Building an image|
 
-![CMD, ENTRYPOINT and RUN decission(https://www.docker.com/app/uploads/2024/07/2400x1260_run-cmd-entrypoint-1536x806.png)
+![CMD, ENTRYPOINT and RUN decision tree](https://www.docker.com/app/uploads/2024/07/2400x1260_run-cmd-entrypoint-1536x806.png)
 #### **Shell and exec form reference**
 
 |**Form**|**Description**|**Example**|
@@ -70,6 +70,7 @@ Running `docker run myimage --user-arg` executes `python /app/my_script.py --use
 |**Shell Form**|Takes the form of `<INSTRUCTION> <COMMAND>`.|`CMD echo TEST` or `ENTRYPOINT echo TEST`|
 |**Exec Form**|Takes the form of `<INSTRUCTION> ["EXECUTABLE", "PARAMETER"]`.|`CMD ["echo", "TEST"]` or `ENTRYPOINT ["echo", "TEST"]`|
 
+![Exec and shell form decision tree](https://www.docker.com/app/uploads/2024/07/2400x1260_decision-tree-exec-vs-shell-1536x806.png)
 ## Documentation
 - [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
 - [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/) 
