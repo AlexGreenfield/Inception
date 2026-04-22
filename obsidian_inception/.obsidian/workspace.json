@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerfile.md",
+                "file": "Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dockerfile"
+              "title": "Resources"
             }
           }
         ],
@@ -216,12 +216,12 @@
   },
   "active": "5fe50477186256e9",
   "lastOpenFiles": [
-    "Docker/Docker Compose.md",
+    "To do.md",
     "Docker/Dockerfile.md",
+    "Untitled Kanban.md",
+    "Docker/Docker Compose.md",
     "Docker/Docker Overwiev.md",
     "Resources.md",
-    "To do.md",
-    "Untitled Kanban.md",
     "Docker",
     "SSH/Secure Shell Overview.md",
     "SSH/SSH Config on VM.md",
