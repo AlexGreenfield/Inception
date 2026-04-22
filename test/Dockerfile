@@ -1,3 +1,3 @@
 FROM debian:12
 
-CMD ["echo", 'Hello World']
+CMD [ "echo", "Hello World"]
