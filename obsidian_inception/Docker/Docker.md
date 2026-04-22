@@ -1,4 +1,8 @@
+## Overview
+...
+A Docker image is a folder; it must contain your [[Dockerfile]] at the root of the folder but can also contain a bunch of other files so that you can then copy them directly into your VM.
 ## Commands
+
 ### [docker buildx build](https://docs.docker.com/reference/cli/docker/buildx/build/)
 **Description:** Start a build
 
