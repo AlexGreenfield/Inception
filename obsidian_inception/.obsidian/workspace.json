@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "31010394f3844235",
+  "active": "44eba39c7079ba76",
   "lastOpenFiles": [
     "Docker/Docker Network.md",
     "Docker/Docker Compose.md",
