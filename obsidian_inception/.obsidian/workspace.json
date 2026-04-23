@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "03b4d1112705dff3",
+        "id": "119bd7b43da628d8",
         "type": "tabs",
         "children": [
           {
-            "id": "44eba39c7079ba76",
+            "id": "4d7b318eb64b9e72",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker Compose.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker Compose"
+              "title": "New tab"
             }
           }
         ]
@@ -113,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources.md",
+                "file": "Docker/Docker Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Resources"
+              "title": "Outgoing links from Docker Compose"
             }
           },
           {
@@ -156,20 +152,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources.md",
+                "file": "Docker/Docker Compose.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Resources"
+              "title": "Outline of Docker Compose"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,7 +182,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "44eba39c7079ba76",
+  "active": "24ddcb338a88884e",
   "lastOpenFiles": [
     "Docker/Docker.md",
     "Docker/Docker Compose.md",
