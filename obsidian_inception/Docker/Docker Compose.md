@@ -9,7 +9,65 @@ The Compose file, or `compose.yaml` file, follows the rules provided by the [Com
 ### `compose ps`
 
 
+### Illustrative example
 
+Consider an application split into a frontend web application and a backend service.
+
+The frontend is configured at runtime with an HTTP configuration file managed by infrastructure, providing an external domain name, and an HTTPS server certificate injected by the platform's secured secret store.
+
+The backend stores data in a persistent volume.
+
+Both services communicate with each other on an isolated back-tier network, while the frontend is also connected to a front-tier network and exposes port 443 for external usage.
+
+![Example of a docker compose application](https://docs.docker.com/compose/images/compose-application.webp)
+
+The example application is composed of the following parts:
+- Two services, backed by Docker images: webapp and database
+- One secret (HTTPS certificate), injected into the frontend
+- One configuration (HTTP), injected into the frontend
+- One persistent volume, attached to the backend
+- Two networks
+
+``` YAML
+services:
+  frontend:
+    image: example/webapp
+    ports:
+      - "443:8043"
+    networks:
+      - front-tier
+      - back-tier
+    configs:
+      - httpd-config
+    secrets:
+      - server-certificate
+
+  backend:
+    image: example/database
+    volumes:
+      - db-data:/etc/data
+    networks:
+      - back-tier
+
+volumes:
+  db-data:
+    driver: flocker
+    driver_opts:
+      size: "10GiB"
+
+configs:
+  httpd-config:
+    external: true
+
+secrets:
+  server-certificate:
+    external: true
+
+networks:
+  # The presence of these objects is sufficient to define them
+  front-tier: {}
+  back-tier: {}
+```
 ## Documentation
 - [How Compose works](https://docs.docker.com/compose/intro/compose-application-model/)
 - [Docker Compose Quickstart](https://docs.docker.com/compose/gettingstarted/)
