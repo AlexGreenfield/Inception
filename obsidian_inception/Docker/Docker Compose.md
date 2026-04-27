@@ -9,7 +9,7 @@ The Compose file, or `compose.yaml` file, follows the rules provided by the [Com
 ### `compose ps`
 
 
-### Illustrative example
+## Illustrative example
 
 Consider an application split into a frontend web application and a backend service.
 
@@ -68,6 +68,36 @@ networks:
   front-tier: {}
   back-tier: {}
 ```
+## 42 Example
+In Webserv, we have to create different images that have to talk between each other: `NGINX` for the backend, WordPress for the frontend, and MariaDB for the database. So, we have to create this three images and setup a `YAML` file that starts them. Here's an example of how this `YAML` file could look like: 
+
+```YAML
+version: "3"
+
+services:
+nginx:
+	build: requirements/website/ 
+	env_file: .env
+	container_name: website
+	ports:
+	- "80:80"
+	restart: always
+nginx:
+	build: requirements/intra/
+env_file: .env
+	container_name: intra
+	ports:
+	- "80:80"
+	restart: always 
+mariadb:
+	container_name: badgeuse
+	build: mariadb
+	env_file: .env
+	restart: always
+```
+
+
+
 ## Documentation
 - [How Compose works](https://docs.docker.com/compose/intro/compose-application-model/)
 - [Docker Compose Quickstart](https://docs.docker.com/compose/gettingstarted/)
