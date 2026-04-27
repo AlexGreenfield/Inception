@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker CLI.md",
+                "file": "Docker/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker CLI"
+              "title": "Docker"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,17 +200,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "24ddcb338a88884e",
+  "active": "4d7b318eb64b9e72",
   "lastOpenFiles": [
-    "Docker/Docker Compose.md",
-    "Docker/Docker CLI.md",
-    "Untitled",
     "Docker/Docker.md",
+    "Docker/Docker Compose.md",
     "Docker/Dockerfile.md",
-    "Resources.md",
-    "To do.md",
     "Docker/Docker Network.md",
     "Docker/Docker Image.md",
+    "Docker/Docker CLI.md",
+    "Untitled",
+    "Resources.md",
+    "To do.md",
     "SSH/SSH Config on VM.md",
     "SSH/Secure Shell Overview.md",
     "Untitled Kanban.md",
