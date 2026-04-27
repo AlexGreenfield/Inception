@@ -98,6 +98,8 @@ mariadb:
 
 
 
+## Docker Compose Syntax
+
 ## Documentation
 - [How Compose works](https://docs.docker.com/compose/intro/compose-application-model/)
 - [Docker Compose Quickstart](https://docs.docker.com/compose/gettingstarted/)
