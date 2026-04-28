@@ -8,7 +8,6 @@ The Compose file, or `compose.yaml` file, follows the rules provided by the [Com
 ### `compose logs`
 ### `compose ps`
 
-
 ## Illustrative example
 
 Consider an application split into a frontend web application and a backend service.
