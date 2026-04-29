@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2e8d4cabd00e6a59",
+        "id": "a3a23014ba734e37",
         "type": "tabs",
         "children": [
           {
-            "id": "0b29997ec312996e",
+            "id": "73c34b505721b2bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Docker/Dockerfile.md",
-                "mode": "source",
-                "source": false
+                "file": "Docker Workflow.canvas",
+                "viewState": {
+                  "x": -830,
+                  "y": -248.6725274725275,
+                  "zoom": -0.8320553626859286
+                }
               },
-              "icon": "lucide-file",
-              "title": "Dockerfile"
+              "icon": "lucide-layout-dashboard",
+              "title": "Docker Workflow"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Dockerfile.md",
+                "file": "Docker Workflow.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dockerfile"
+              "title": "Backlinks for Docker Workflow"
             }
           },
           {
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Dockerfile.md",
+                "file": "Docker Workflow.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Dockerfile"
+              "title": "Outgoing links from Docker Workflow"
             }
           },
           {
@@ -156,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Dockerfile.md",
+                "file": "Docker Workflow.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dockerfile"
+              "title": "Outline of Docker Workflow"
             }
           }
         ],
@@ -185,14 +188,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "0b29997ec312996e",
+  "active": "73c34b505721b2bf",
   "lastOpenFiles": [
-    "Docker/Docker Build.md",
-    "Docker/Dockerfile.md",
-    "Docker/Docker Network.md",
-    "Docker/Docker Image.md",
     "Docker/Docker Compose.md",
+    "Docker/Dockerfile.md",
+    "Docker Workflow.canvas",
+    "Docker/Docker Build.md",
     "Docker/Docker CLI.md",
+    "Docker/Docker Image.md",
+    "Docker/Docker Network.md",
     "YAML.md",
     "To do.md",
     "Resources.md",

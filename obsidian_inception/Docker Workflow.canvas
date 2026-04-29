@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"328578d72bd83b35","type":"group","x":-1020,"y":-140,"width":400,"height":900,"label":"Single container"},
+		{"id":"4db23428ad770d5b","type":"group","x":-520,"y":-140,"width":400,"height":900,"label":"Single container"},
+		{"id":"e8b65c9e8d7c3900","type":"group","x":-1540,"y":-140,"width":400,"height":900,"label":"Single container"},
+		{"id":"f95f2f0c09291df2","type":"text","text":"\nDockerfile: instructions to build a Docker Image\n\n","x":-440,"y":-120,"width":240,"height":80},
+		{"id":"9f180f1bbc4eac32","type":"text","text":"Docker Image:  a package that includes all of the files, binaries and libraries to run a process. They are inmutables and are compose of layers.\n","x":-500,"y":240,"width":360,"height":140},
+		{"id":"609d1d1cff362996","type":"text","text":"Docker Build: creates an Docker Image from a Dockerfile\n","x":-440,"y":60,"width":240,"height":80},
+		{"id":"8e856243014b8364","type":"text","text":"\nDockerfile: instructions to build a Docker Image\n\n","x":-1460,"y":-120,"width":240,"height":80},
+		{"id":"f474bba76cc83ae5","type":"text","text":"Docker Image:  a package that includes all of the files, binaries and libraries to run a process. They are inmutables and are compose of layers.\n","x":-1520,"y":240,"width":360,"height":140},
+		{"id":"53b971a21b18b893","type":"text","text":"Docker Build: creates an Docker Image from a Dockerfile\n","x":-1460,"y":60,"width":240,"height":80},
+		{"id":"f54b6ace0dc0204f","type":"text","text":"Docker Run: starts a container from an established image.","x":-1520,"y":480,"width":360,"height":80},
+		{"id":"ba974a875d7d2c73","type":"text","text":"Docker Container: isolated process for a component of the app. Is independent and portable from other containers\n","x":-1520,"y":660,"width":360,"height":80},
+		{"id":"1f5344e9d8a429c9","type":"text","text":"\nDockerfile: instructions to build a Docker Image\n\n","x":-940,"y":-120,"width":240,"height":80},
+		{"id":"fe6619e11b675812","type":"text","text":"Docker Image:  a package that includes all of the files, binaries and libraries to run a process. They are inmutables and are compose of layers.\n","x":-1000,"y":240,"width":360,"height":140},
+		{"id":"790f9965ef469a13","type":"text","text":"Docker Run: starts a container from an established image.","x":-1000,"y":480,"width":360,"height":80},
+		{"id":"aa3edbf715db8a12","type":"text","text":"Docker Container: isolated process for a component of the app. Is independent and portable from other containers\n","x":-1000,"y":660,"width":360,"height":80},
+		{"id":"295b4f88869af7d2","type":"text","text":"Docker Run: starts a container from an established image.","x":-500,"y":480,"width":360,"height":80},
+		{"id":"7dbf4bc5a95c56b2","type":"text","text":"Docker Container: isolated process for a component of the app. Is independent and portable from other containers\n","x":-500,"y":660,"width":360,"height":80},
+		{"id":"6cfc68ede1f26521","type":"text","text":"Docker Build: creates an Docker Image from a Dockerfile\n","x":-940,"y":60,"width":240,"height":80},
+		{"id":"db7eef52df8d7b7c","type":"text","text":"\nCompose File: configuration file to define and run multiple containers at once\n\n","x":-1040,"y":-860,"width":440,"height":80}
+	],
+	"edges":[
+		{"id":"e66cc3357867eed0","fromNode":"1f5344e9d8a429c9","fromSide":"bottom","toNode":"6cfc68ede1f26521","toSide":"top"},
+		{"id":"b3b9fad092f65f0a","fromNode":"6cfc68ede1f26521","fromSide":"bottom","toNode":"fe6619e11b675812","toSide":"top"},
+		{"id":"1d4c33d4173b1699","fromNode":"fe6619e11b675812","fromSide":"bottom","toNode":"790f9965ef469a13","toSide":"top"},
+		{"id":"ad55cd3b726d241c","fromNode":"790f9965ef469a13","fromSide":"bottom","toNode":"aa3edbf715db8a12","toSide":"top"},
+		{"id":"ffc82e6435f40944","fromNode":"f95f2f0c09291df2","fromSide":"bottom","toNode":"609d1d1cff362996","toSide":"top"},
+		{"id":"e3485e37f9d7d043","fromNode":"9f180f1bbc4eac32","fromSide":"bottom","toNode":"295b4f88869af7d2","toSide":"top"},
+		{"id":"2b3994da1f0f5ced","fromNode":"609d1d1cff362996","fromSide":"bottom","toNode":"9f180f1bbc4eac32","toSide":"top"},
+		{"id":"74ac4a41a175ed24","fromNode":"295b4f88869af7d2","fromSide":"bottom","toNode":"7dbf4bc5a95c56b2","toSide":"top"},
+		{"id":"18499045204865ea","fromNode":"8e856243014b8364","fromSide":"bottom","toNode":"53b971a21b18b893","toSide":"top"},
+		{"id":"944a7f2b45238724","fromNode":"f474bba76cc83ae5","fromSide":"bottom","toNode":"f54b6ace0dc0204f","toSide":"top"},
+		{"id":"038c0bd17e35bc2a","fromNode":"53b971a21b18b893","fromSide":"bottom","toNode":"f474bba76cc83ae5","toSide":"top"},
+		{"id":"412cc4408d08d7ab","fromNode":"f54b6ace0dc0204f","fromSide":"bottom","toNode":"ba974a875d7d2c73","toSide":"top"}
+	]
+}
