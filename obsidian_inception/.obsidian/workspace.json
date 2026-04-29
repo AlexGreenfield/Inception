@@ -11,14 +11,17 @@
             "id": "73c34b505721b2bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Docker/Docker Containers/Docker Image.md",
-                "mode": "source",
-                "source": true
+                "file": "Docker/Docker Workflow.canvas",
+                "viewState": {
+                  "x": -2471.188998354258,
+                  "y": 143.42584010543098,
+                  "zoom": -0.7849625007211561
+                }
               },
-              "icon": "lucide-file",
-              "title": "Docker Image"
+              "icon": "lucide-layout-dashboard",
+              "title": "Docker Workflow"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker Containers/Docker Image.md",
+                "file": "Docker/Docker Workflow.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Docker Image"
+              "title": "Backlinks for Docker Workflow"
             }
           },
           {
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker Containers/Docker Image.md",
+                "file": "Docker/Docker Workflow.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Docker Image"
+              "title": "Outgoing links from Docker Workflow"
             }
           },
           {
@@ -156,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker Containers/Docker Image.md",
+                "file": "Docker/Docker Workflow.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker Image"
+              "title": "Outline of Docker Workflow"
             }
           }
         ],
@@ -185,20 +188,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "73c34b505721b2bf",
+  "active": "24ddcb338a88884e",
   "lastOpenFiles": [
+    "To do.md",
+    "Resources.md",
+    "Docker/Docker Containers/Docker Image.md",
     "Docker/Docker Workflow.canvas",
     "Docker/Docker Compose/Docker Compose.md",
     "Docker/Docker Compose/YAML.md",
     "Docker/Docker CLI.md",
-    "Docker/Docker Network.md",
+    "Docker/Docker Containers/Docker Network.md",
     "Docker/Docker Containers/Dockerfile.md",
-    "Docker/Docker Containers/Docker Image.md",
     "Docker/Docker Containers/Docker Commands.md",
     "Docker/Docker Compose",
     "Docker/Docker Containers",
-    "To do.md",
-    "Resources.md",
     "SSH/SSH Config on VM.md",
     "SSH/Secure Shell Overview.md",
     "Untitled Kanban.md",
