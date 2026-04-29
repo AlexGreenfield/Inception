@@ -15,9 +15,9 @@
               "state": {
                 "file": "Docker/Docker Workflow.canvas",
                 "viewState": {
-                  "x": -2471.188998354258,
-                  "y": 143.42584010543098,
-                  "zoom": -0.7849625007211561
+                  "x": -2635.819237530678,
+                  "y": 239.16990179907515,
+                  "zoom": -1.1849625007211562
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -188,18 +188,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "24ddcb338a88884e",
+  "active": "73c34b505721b2bf",
   "lastOpenFiles": [
+    "Docker/Docker Containers/Docker Commands.md",
+    "Docker/Docker Containers/Docker Image.md",
+    "Docker/Docker Containers/Docker Network.md",
+    "Docker/Docker Containers/Dockerfile.md",
+    "Notes.md",
+    "Docker/Docker Workflow.canvas",
+    "Untitled",
     "To do.md",
     "Resources.md",
-    "Docker/Docker Containers/Docker Image.md",
-    "Docker/Docker Workflow.canvas",
     "Docker/Docker Compose/Docker Compose.md",
     "Docker/Docker Compose/YAML.md",
     "Docker/Docker CLI.md",
-    "Docker/Docker Containers/Docker Network.md",
-    "Docker/Docker Containers/Dockerfile.md",
-    "Docker/Docker Containers/Docker Commands.md",
     "Docker/Docker Compose",
     "Docker/Docker Containers",
     "SSH/SSH Config on VM.md",

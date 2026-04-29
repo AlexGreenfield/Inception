@@ -1,0 +1,2 @@
+## Network
+- When making the Dockerfile or Docker Compose File, remember to only expose port 443. That means that all the networking between the different containers must be handle inside the YAML file, and there's no need to expose another port besides 443 in NGINX.
