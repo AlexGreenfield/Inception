@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker Compose.md",
+                "file": "Docker/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker Compose"
+              "title": "Docker"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker Compose.md",
+                "file": "Docker/Docker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Docker Compose"
+              "title": "Backlinks for Docker"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker Compose.md",
+                "file": "Docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Docker Compose"
+              "title": "Outgoing links from Docker"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker Compose.md",
+                "file": "Docker/Docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker Compose"
+              "title": "Outline of Docker"
             }
           }
         ],
@@ -185,17 +185,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5398b0a3896ae36a",
+  "active": "0b29997ec312996e",
   "lastOpenFiles": [
-    "Docker/Docker Image.md",
-    "Docker/Docker Network.md",
-    "Docker/Dockerfile.md",
-    "Docker/Docker Compose.md",
-    "To do.md",
-    "Docker/Docker.md",
     "YAML.md",
+    "To do.md",
     "Resources.md",
+    "Docker/Dockerfile.md",
+    "Docker/Docker Network.md",
+    "Docker/Docker Image.md",
+    "Docker/Docker Compose.md",
     "Docker/Docker CLI.md",
+    "Docker/Docker.md",
     "Untitled",
     "SSH/SSH Config on VM.md",
     "SSH/Secure Shell Overview.md",
