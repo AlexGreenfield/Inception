@@ -99,6 +99,8 @@ mariadb:
 
 
 ## Docker Compose Syntax
+- `Version`: specifies 
+
 
 ## Documentation
 - [How Compose works](https://docs.docker.com/compose/intro/compose-application-model/)
