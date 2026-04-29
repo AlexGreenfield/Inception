@@ -38,4 +38,4 @@ YAML also contains scalars, which are arbitrary data (encoded in Unicode) that c
 
 When creating a YAML file, you’ll need to ensure that you follow these syntax rules and that your file is valid. To achieve it, you can use a linter—an application that verifies the syntax of a file. The yamllint command can help to ensure you’ve created a valid YAML file before you hand it over to an application.
 ## Resources
-[- What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml)
+- [What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml)
