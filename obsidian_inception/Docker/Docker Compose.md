@@ -99,7 +99,7 @@ mariadb:
 
 
 ## Docker Compose Syntax
-- `Version`: specifies 
+- `Version`: OBSOLETE. 
 
 
 ## Documentation
