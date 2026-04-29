@@ -37,3 +37,6 @@ You can restart a stopped container with all its previous changes intact using `
 |[`--name`](https://docs.docker.com/reference/cli/docker/container/run/#name)||Assign a name to the container|
 |[`--rm`](https://docs.docker.com/reference/cli/docker/container/run/#rm)||Automatically remove the container and its associated anonymous volumes when it exits|
 ### [docker ps](https://docs.docker.com/reference/cli/docker/container/ls/)
+### docker container start
+### docker container stop
+### docker container kill
