@@ -9,6 +9,16 @@ The Compose file, or `compose.yaml` file, follows the rules provided by the [Com
 -  `compose logs`
 -  `compose ps`
 
+## Docker Compose Syntax
+### Version and name
+- `Version`: OBSOLETE. Specifies which compose file format version is the file using and how to interpret the file structure. It was used to differentiate between common versions like 2 or 3. But in modern Docker Compose this field is ignored and the latest schema will be used automatically.
+- `Name`: name for the project, i.e `name: myapp`. It is exposed for interpolation and environment variable resolution as `COMPOSE_PROJECT_NAME`.
+### Services
+	
+### Networks
+### Volumes
+### Configs
+### Secrets
 ## Illustrative example
 
 Consider an application split into a frontend web application and a backend service.
@@ -68,6 +78,7 @@ networks:
   front-tier: {}
   back-tier: {}
 ```
+
 ## 42 Example
 In Webserv, we have to create different images that have to talk between each other: `NGINX` for the backend, WordPress for the frontend, and MariaDB for the database. So, we have to create this three images and setup a `YAML` file that starts them. Here's an example of how this `YAML` file could look like: 
 
@@ -96,10 +107,6 @@ mariadb:
 	restart: always
 ```
 
-
-
-## Docker Compose Syntax
-- `Version`: OBSOLETE. 
 
 
 ## Documentation

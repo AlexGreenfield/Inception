@@ -95,7 +95,7 @@
               "type": "backlink",
               "state": {
                 "file": "Docker/Docker Compose.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -166,12 +166,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,7 +185,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "0b29997ec312996e",
+  "active": "5398b0a3896ae36a",
   "lastOpenFiles": [
     "Docker/Docker Image.md",
     "Docker/Docker Network.md",
