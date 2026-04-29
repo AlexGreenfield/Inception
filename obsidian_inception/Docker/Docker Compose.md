@@ -4,10 +4,10 @@ With Docker Compose you use a YAML configuration file, known as the [Compose fil
 The Compose file, or `compose.yaml` file, follows the rules provided by the [Compose Specification](https://docs.docker.com/reference/compose-file/) in how to define multi-container applications. This is the Docker Compose implementation of the formal [Compose Specification](https://github.com/compose-spec/compose-spec).
 
 ## Commands
-### `compose up`
-### `compose down`
-### `compose logs`
-### `compose ps`
+-  `compose up`
+-  `compose down`
+-  `compose logs`
+-  `compose ps`
 
 ## Illustrative example
 
