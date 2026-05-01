@@ -1,0 +1,7 @@
+## Overview
+Volumes are persistent data stores for containers, created and managed by Docker. You can create a volume explicitly using the `docker volume create` command, or Docker can create a volume during container or service creation.
+
+When you create a volume, it's stored within a directory on the Docker host. When you mount the volume into a container, this directory is what's mounted into the container. This is similar to the way that bind mounts work, except that volumes are managed by Docker and are isolated from the core functionality of the host machine.
+
+## Documentation
+- [Volumes](https://docs.docker.com/engine/storage/volumes/)
