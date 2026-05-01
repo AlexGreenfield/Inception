@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes and requirements.md",
-                "mode": "source",
-                "source": false
+                "file": "Docker/Docker Objects/Docker Containers/Docker Container.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Notes and requirements"
+              "title": "Docker Container"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes and requirements.md",
+                "file": "Docker/Docker Objects/Docker Containers/Docker Container.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Notes and requirements"
+              "title": "Outline of Docker Container"
             }
           }
         ],
@@ -187,11 +187,12 @@
   },
   "active": "6ace9bf421af5cb1",
   "lastOpenFiles": [
+    "Docker/Docker Objects/Docker Network and Volumes/Docker Network.md",
+    "Docker/Docker Objects/Docker Network and Volumes/Docker Volume.md",
+    "Docker/Docker Objects/Docker Image/Docker Image.md",
     "Notes and requirements.md",
     "Resources.md",
     "Docker/Docker Objects/Docker Network and Volumes/Bind mount.md",
-    "Docker/Docker Objects/Docker Network and Volumes/Docker Network.md",
-    "Docker/Docker Objects/Docker Network and Volumes/Docker Volume.md",
     "Bind.md",
     "Docker/Docker Objects/Docker Containers/Docker Container.md",
     "To do.md",
@@ -201,7 +202,6 @@
     "Docker/Docker Compose/Docker Compose.md",
     "Docker/Docker Client and Daemon/Docker Daemon.md",
     "Docker/Docker Client and Daemon/Docker CLI.md",
-    "Docker/Docker Objects/Docker Image/Docker Image.md",
     "Compose CLI.md",
     "Docker/Docker Objects/Docker Image/Dockerfile.md",
     "Docker/Docker Workflow.canvas",

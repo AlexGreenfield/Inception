@@ -16,7 +16,8 @@ The `docker buildx build` command starts a build using BuildKit.
 **Options**
 
 | Option | Default | Description |
-|--------|---------|-------------|
+| ------ | ------- | ----------- |
+| `-t`, `--tag` |  |  Image identifier (format: `[registry/]repository[:tag]`) |
 
 #### [docker run](https://docs.docker.com/reference/cli/docker/container/run)
 **Description:** Create and run a new container from an image
