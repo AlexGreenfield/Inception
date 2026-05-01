@@ -10,17 +10,16 @@
 
 **Aliases:** `docker build`, `docker builder build`, `docker image build`, `docker buildx b`
 
-##### Description
+ **Description**
 
 The `docker buildx build` command starts a build using BuildKit.
 
-#### Options
+**Options
 
 | Option | Default | Description |
 |--------|---------|-------------|
 
 #### [docker run](https://docs.docker.com/reference/cli/docker/container/run)
-##### Description
 **Description:** Create and run a new container from an image
 
 **Usage:** `docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]`
