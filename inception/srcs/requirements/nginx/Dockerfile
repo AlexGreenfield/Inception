@@ -9,3 +9,6 @@ RUN apt install nginx -y
 
 # Let's just install the best text editor in the world and curl
 RUN apt install vim -y && apt install curl -y
+
+# ---TLS install---
+# 

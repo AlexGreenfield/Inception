@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSL TLS/SSL TLS.md",
-                "mode": "preview",
+                "file": "SSL TLS/OpenSSL.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SSL TLS"
+              "title": "OpenSSL"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SSL TLS/SSL TLS.md",
+                "file": "SSL TLS/OpenSSL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SSL TLS"
+              "title": "Outline of OpenSSL"
             }
           }
         ],
@@ -187,8 +187,9 @@
   },
   "active": "6ace9bf421af5cb1",
   "lastOpenFiles": [
-    "Docker/Docker Objects/Docker Containers/Docker Container.md",
     "SSL TLS/SSL TLS.md",
+    "SSL TLS/OpenSSL.md",
+    "Docker/Docker Objects/Docker Containers/Docker Container.md",
     "SSL TLS",
     "Docker/Docker Objects/Docker Network and Volumes/Docker Network.md",
     "Docker/Docker Objects/Docker Network and Volumes/Docker Volume.md",
