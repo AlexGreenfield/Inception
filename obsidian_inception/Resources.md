@@ -14,7 +14,19 @@
 ## Articles
 ### Docker
 - [Getting started with Docker and Kubernetes: A beginners guide](https://www.educative.io/blog/docker-kubernetes-beginners-guide)
+### Docker Compose
+-  [Simplifying Multi-Container Development with Docker Compose ](https://dev.to/mayankcse/simplifying-multi-container-development-with-docker-compose-4adb)
+### YAML
+- [What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml)
 
 ## Documentation
 ### Docker
 - [What is docker?](https://docs.docker.com/get-started/docker-overview/)
+### Docker CLI
+- [CLI Cheat Sheet](https://www.docker.com/resources/cli-cheat-sheet/)
+### Docker Images
+- [What is an image?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/)
+- [Understanding the image layers](https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/)
+### Dockerfile
+- [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
+- [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/) 

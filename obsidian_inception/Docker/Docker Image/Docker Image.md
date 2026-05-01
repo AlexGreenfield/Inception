@@ -9,6 +9,7 @@ There are two important principles of images:
 
 These two principles let you to extend or add to existing images. For example, if you are building a Python app, you can start from the Python image and add additional layers to install your app's dependencies and add your code. This lets you focus on your app, rather than Python itself.
 
+A Docker image is a folder; it must contain your [[Dockerfile]] at the root of the folder but can also contain a bunch of other files so that you can then copy them directly into your VM.
 ## Image layers
 
 Each layer in an image contains a set of filesystem changes - additions, deletions, or modifications. Let's look at a theoretical image:
@@ -29,5 +30,5 @@ This is beneficial because it allows layers to be reused between images. For exa
 
 Layers let you extend images of others by reusing their base layers, allowing you to add only the data that your application needs.
 ## Documentation
-- [What is an image?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
+- [What is an image?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/)
 - [Understanding the image layers](https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/)
