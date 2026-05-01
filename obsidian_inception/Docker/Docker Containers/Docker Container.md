@@ -10,11 +10,9 @@
 
 **Aliases:** `docker build`, `docker builder build`, `docker image build`, `docker buildx b`
 
- **Description**
-
 The `docker buildx build` command starts a build using BuildKit.
 
-**Options
+**Options**
 
 | Option | Default | Description |
 |--------|---------|-------------|
@@ -25,11 +23,12 @@ The `docker buildx build` command starts a build using BuildKit.
 **Usage:** `docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]`
 
 **Aliases:** `docker run`
-##### Description
+
 The `docker run` command runs a command in a new container, pulling the image if needed and starting the container.
 
 You can restart a stopped container with all its previous changes intact using `docker start`. Use `docker ps -a` to view a list of all containers, including those that are stopped.
-#### Most used options
+
+**Options**
 
 | Option                                                                       | Default | Description                                                                           |
 | ---------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
@@ -37,7 +36,9 @@ You can restart a stopped container with all its previous changes intact using `
 | [`--name`](https://docs.docker.com/reference/cli/docker/container/run/#name) |         | Assign a name to the container                                                        |
 | [`--rm`](https://docs.docker.com/reference/cli/docker/container/run/#rm)     |         | Automatically remove the container and its associated anonymous volumes when it exits |
 ### Manage containers
-### [docker ps](https://docs.docker.com/reference/cli/docker/container/ls/)
-### docker container start
-### docker container stop
-### docker container kill
+#### [docker ps](https://docs.docker.com/reference/cli/docker/container/ls/)
+#### docker container start
+#### docker container stop
+#### docker container kill
+
+## 
