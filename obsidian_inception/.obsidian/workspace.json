@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73c34b505721b2bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker Objects/Docker Containers/Docker Container.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Docker Container"
-            }
-          },
-          {
             "id": "c5332dfc9d0e9e1f",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "Docker Volume"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,19 +188,21 @@
   "active": "c5332dfc9d0e9e1f",
   "lastOpenFiles": [
     "Docker/Docker Objects/Docker Network and Volumes/Docker Network.md",
+    "Bind mount.md",
+    "Bind.md",
+    "Docker/Docker Objects/Docker Network and Volumes/Docker Volume.md",
+    "Docker/Docker Objects/Docker Containers/Docker Container.md",
     "To do.md",
     "Docker/Docker.md",
     "Docker/Docker Objects",
     "Docker/Docker Compose/YAML.md",
     "Docker/Docker Compose/Docker Compose.md",
-    "Docker/Docker Objects/Docker Containers/Docker Container.md",
     "Docker/Docker Client and Daemon/Docker Daemon.md",
     "Docker/Docker Client and Daemon/Docker CLI.md",
     "Docker/Docker Objects/Docker Image/Docker Image.md",
     "Compose CLI.md",
     "Docker/Docker Objects/Docker Image/Dockerfile.md",
     "Docker/Docker Workflow.canvas",
-    "Docker/Docker Objects/Docker Network and Volumes/Docker Volume.md",
     "Docker/Docker Containers/Commands for containers.md",
     "Resources.md",
     "Notes.md",
