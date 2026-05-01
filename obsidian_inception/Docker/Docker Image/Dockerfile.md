@@ -71,9 +71,11 @@ Running `docker run myimage --user-arg` executes `python /app/my_script.py --use
 |**Exec Form**|Takes the form of `<INSTRUCTION> ["EXECUTABLE", "PARAMETER"]`.|`CMD ["echo", "TEST"]` or `ENTRYPOINT ["echo", "TEST"]`|
 
 ![Exec and shell form decision tree](https://www.docker.com/app/uploads/2024/07/2400x1260_decision-tree-exec-vs-shell-1536x806.png)
-## Documentation
-- [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
-- [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/) 
+
 ## References
 -  [Grademe Inception Tutorial](https://tuto.grademe.fr/inception/)
 - [Docker Best Practices: Choosing Between RUN, CMD, and ENTRYPOINT](https://www.docker.com/blog/docker-best-practices-choosing-between-run-cmd-and-entrypoint/)
+
+## Documentation
+- [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
+- [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/) 

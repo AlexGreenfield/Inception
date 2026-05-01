@@ -14,7 +14,6 @@ The Compose file, or `compose.yaml` file, follows the rules provided by the [Com
 - `Version`: OBSOLETE. Specifies which compose file format version is the file using and how to interpret the file structure. It was used to differentiate between common versions like 2 or 3. But in modern Docker Compose this field is ignored and the latest schema will be used automatically.
 - `Name`: name for the project, i.e `name: myapp`. It is exposed for interpolation and environment variable resolution as `COMPOSE_PROJECT_NAME`.
 ### Services
-	
 ### Networks
 ### Volumes
 ### Configs
@@ -109,11 +108,11 @@ mariadb:
 
 
 
+## References
+-  [Simplifying Multi-Container Development with Docker Compose ](https://dev.to/mayankcse/simplifying-multi-container-development-with-docker-compose-4adb)
+
 ## Documentation
 - [How Compose works](https://docs.docker.com/compose/intro/compose-application-model/)
 - [Docker Compose Quickstart](https://docs.docker.com/compose/gettingstarted/)
 - [Compose file reference](https://docs.docker.com/reference/compose-file/)
 - [docker compose commands](https://docs.docker.com/reference/cli/docker/compose/)
-## References
--  [Simplifying Multi-Container Development with Docker Compose ](https://dev.to/mayankcse/simplifying-multi-container-development-with-docker-compose-4adb)
-

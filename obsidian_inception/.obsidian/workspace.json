@@ -11,17 +11,14 @@
             "id": "73c34b505721b2bf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Docker/Docker Workflow.canvas",
-                "viewState": {
-                  "x": -1460,
-                  "y": 19,
-                  "zoom": -1.5849625007211563
-                }
+                "file": "Docker/Docker Containers/Docker Container.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Docker Workflow"
+              "icon": "lucide-file",
+              "title": "Docker Container"
             }
           }
         ]
@@ -159,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker Workflow.canvas",
+                "file": "Docker/Docker Containers/Docker Container.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker Workflow"
+              "title": "Outline of Docker Container"
             }
           }
         ],
@@ -190,21 +187,21 @@
   },
   "active": "73c34b505721b2bf",
   "lastOpenFiles": [
+    "Docker/Docker Workflow.canvas",
     "Docker/Docker Network and Volumes/Docker Volume.md",
     "Docker/Docker Network and Volumes/Docker Network.md",
     "Docker/Docker Image/Dockerfile.md",
     "Docker/Docker Image/Docker Image.md",
+    "Docker/Docker Daemon/Docker CLI.md",
+    "Docker/Docker Compose/Docker Compose.md",
     "Docker/Docker Containers/Docker Container.md",
+    "Docker/Docker Compose/YAML.md",
     "Docker/Docker Containers/Commands for containers.md",
     "To do.md",
     "Resources.md",
     "Notes.md",
     "SSH/Secure Shell Overview.md",
     "SSH/SSH Config on VM.md",
-    "Docker/Docker Workflow.canvas",
-    "Docker/Docker Daemon/Docker CLI.md",
-    "Docker/Docker Compose/YAML.md",
-    "Docker/Docker Compose/Docker Compose.md",
     "Docker/Docker Network and Volumes",
     "Docker/Docker Image",
     "Docker/Docker Daemon",
