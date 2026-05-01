@@ -38,6 +38,7 @@ You can restart a stopped container with all its previous changes intact using `
 | [`-i`, `--interactive`](https://docs.docker.com/reference/cli/docker/container/run#interactive) |  |  Keep STDIN open even if not attached |
 | [`--name`](https://docs.docker.com/reference/cli/docker/container/run/#name) |         | Assign a name to the container                                                        |
 | [`--rm`](https://docs.docker.com/reference/cli/docker/container/run/#rm)     |         | Automatically remove the container and its associated anonymous volumes when it exits |
+| [`-t`, `--tty`](https://docs.docker.com/reference/cli/docker/container/run#tty) |  |  Allocate a pseudo-TTY |
 ### Manage containers
 #### [docker ps](https://docs.docker.com/reference/cli/docker/container/ls/)
 #### docker container start
