@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerd/Docker CLI.md",
+                "file": "Docker/Docker Daemon/Docker CLI.md",
                 "mode": "source",
                 "source": false
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Dockerd/Docker CLI.md",
+                "file": "Docker/Docker Daemon/Docker CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,9 +187,9 @@
   },
   "active": "24ddcb338a88884e",
   "lastOpenFiles": [
-    "Docker/Dockerd",
+    "Docker/Docker Daemon",
     "Docker/Docker Workflow.canvas",
-    "Docker/Dockerd/Docker CLI.md",
+    "Docker/Docker Daemon/Docker CLI.md",
     "Docker/Docker Containers/Docker Commands.md",
     "Docker/Docker Containers/Docker Image.md",
     "Docker/Docker Containers/Docker Network.md",
