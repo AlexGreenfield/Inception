@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker Image/Docker Image.md",
+                "file": "Docker/Docker Containers/Docker Container.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker Image"
+              "title": "Docker Container"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker Image/Docker Image.md",
+                "file": "Docker/Docker Containers/Docker Container.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker Image"
+              "title": "Outline of Docker Container"
             }
           }
         ],
@@ -187,6 +187,9 @@
   },
   "active": "73c34b505721b2bf",
   "lastOpenFiles": [
+    "Docker/Docker Containers/Commands for containers.md",
+    "Docker/Docker Containers/Docker Container.md",
+    "Docker/Docker Image/Docker Image.md",
     "To do.md",
     "Resources.md",
     "Notes.md",
@@ -196,9 +199,7 @@
     "Docker/Docker Network and Volumes/Docker Volume.md",
     "Docker/Docker Workflow.canvas",
     "Docker/Docker Image/Dockerfile.md",
-    "Docker/Docker Image/Docker Image.md",
     "Docker/Docker Daemon/Docker CLI.md",
-    "Docker/Docker Containers/Commands for containers.md",
     "Docker/Docker Compose/YAML.md",
     "Docker/Docker Compose/Docker Compose.md",
     "Docker/Docker Network and Volumes",

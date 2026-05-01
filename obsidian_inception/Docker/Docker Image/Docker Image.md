@@ -1,5 +1,5 @@
 ## Overview
- A container image is a standardized package that includes all of the files, binaries, libraries, and configurations to run a container.
+ A container image is a standardized package that includes all of the files, binaries, libraries, and configurations to run a container. It's an inmutable file where from we will build our [[Docker Container]]
  
 There are two important principles of images:
 
