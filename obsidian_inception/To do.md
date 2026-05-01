@@ -11,6 +11,7 @@ kanban-plugin: board
 ## WIP
 
 - [ ] Docker 101
+- [ ] Tags to main Docker
 
 
 ## Done

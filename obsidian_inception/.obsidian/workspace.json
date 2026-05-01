@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker.md",
+                "file": "Docker/Docker Objects/Docker Network and Volumes/Docker Network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Docker Network"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker.md",
+                "file": "Docker/Docker Objects/Docker Network and Volumes/Docker Network.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker"
+              "title": "Outline of Docker Network"
             }
           }
         ],
@@ -200,8 +200,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "24ddcb338a88884e",
+  "active": "c5332dfc9d0e9e1f",
   "lastOpenFiles": [
+    "To do.md",
+    "Docker/Docker.md",
     "Docker/Docker Objects",
     "Docker/Docker Compose/YAML.md",
     "Docker/Docker Compose/Docker Compose.md",
@@ -209,8 +211,6 @@
     "Docker/Docker Client and Daemon/Docker Daemon.md",
     "Docker/Docker Client and Daemon/Docker CLI.md",
     "Docker/Docker Objects/Docker Image/Docker Image.md",
-    "Docker/Docker.md",
-    "To do.md",
     "Compose CLI.md",
     "Docker/Docker Objects/Docker Image/Dockerfile.md",
     "Docker/Docker Workflow.canvas",
