@@ -2,7 +2,7 @@
 ## Commands
 ### Build a container from an image and run it
 
-#### [docker buildx build](https://docs.docker.com/reference/cli/docker/buildx/build/)
+#### [docker build](https://docs.docker.com/reference/cli/docker/buildx/build/)
 
 **Description:** Start a build
 
@@ -41,4 +41,5 @@ You can restart a stopped container with all its previous changes intact using `
 #### docker container stop
 #### docker container kill
 
-## 
+## References
+## Documentation
