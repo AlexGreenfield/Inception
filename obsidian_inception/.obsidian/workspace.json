@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker CLI.md",
+                "file": "Docker/Dockerd/Docker CLI.md",
                 "mode": "source",
                 "source": false
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker CLI.md",
+                "file": "Docker/Dockerd/Docker CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,20 +185,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "73c34b505721b2bf",
+  "active": "24ddcb338a88884e",
   "lastOpenFiles": [
+    "Docker/Dockerd",
     "Docker/Docker Workflow.canvas",
+    "Docker/Dockerd/Docker CLI.md",
     "Docker/Docker Containers/Docker Commands.md",
     "Docker/Docker Containers/Docker Image.md",
     "Docker/Docker Containers/Docker Network.md",
     "Docker/Docker Containers/Dockerfile.md",
     "Notes.md",
-    "Untitled",
     "To do.md",
     "Resources.md",
     "Docker/Docker Compose/Docker Compose.md",
     "Docker/Docker Compose/YAML.md",
-    "Docker/Docker CLI.md",
     "Docker/Docker Compose",
     "Docker/Docker Containers",
     "SSH/SSH Config on VM.md",
