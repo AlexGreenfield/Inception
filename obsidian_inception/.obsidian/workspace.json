@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Docker Container"
             }
+          },
+          {
+            "id": "c5332dfc9d0e9e1f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +167,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker Containers/Docker Container.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker Container"
+              "title": "Outline"
             }
           }
         ],
@@ -185,16 +195,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "73c34b505721b2bf",
+  "active": "c5332dfc9d0e9e1f",
   "lastOpenFiles": [
+    "Docker/Docker Daemon/Docker CLI.md",
+    "Compose CLI.md",
+    "Docker/Docker Compose/Docker Compose.md",
+    "Docker/Docker Image/Dockerfile.md",
+    "Docker/Docker Image/Docker Image.md",
+    "Docker/Docker Daemon/Docker Daemon.md",
+    "Docker/Docker Containers/Docker Container.md",
+    "Docker/Docker.md",
     "Docker/Docker Workflow.canvas",
     "Docker/Docker Network and Volumes/Docker Volume.md",
     "Docker/Docker Network and Volumes/Docker Network.md",
-    "Docker/Docker Image/Dockerfile.md",
-    "Docker/Docker Image/Docker Image.md",
-    "Docker/Docker Daemon/Docker CLI.md",
-    "Docker/Docker Compose/Docker Compose.md",
-    "Docker/Docker Containers/Docker Container.md",
     "Docker/Docker Compose/YAML.md",
     "Docker/Docker Containers/Commands for containers.md",
     "To do.md",
