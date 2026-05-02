@@ -11,20 +11,14 @@
             "id": "6ace9bf421af5cb1",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "To do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "WordPress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "To do"
+              "icon": "lucide-file",
+              "title": "WordPress"
             }
           }
         ]
@@ -162,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do.md",
+                "file": "WordPress.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of To do"
+              "title": "Outline of WordPress"
             }
           }
         ],
@@ -192,8 +186,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6ace9bf421af5cb1",
+  "active": "24ddcb338a88884e",
   "lastOpenFiles": [
+    "To do.md",
+    "WordPress.md",
     "MariaDB/MariaDB.md",
     "Resources.md",
     "Docker/Docker Objects/Docker Containers/Docker Container.md",
@@ -207,7 +203,6 @@
     "Notes and requirements.md",
     "Docker/Docker Objects/Docker Network and Volumes/Bind mount.md",
     "Bind.md",
-    "To do.md",
     "Docker/Docker.md",
     "Docker/Docker Objects",
     "Docker/Docker Compose/YAML.md",
