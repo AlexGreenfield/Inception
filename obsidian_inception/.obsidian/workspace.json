@@ -4,45 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0bbeb9ddd79c5f88",
+        "id": "b2c884af49203127",
         "type": "tabs",
         "children": [
           {
-            "id": "6ace9bf421af5cb1",
+            "id": "26ef02e631b80585",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Services/PHP.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PHP"
-            }
-          },
-          {
-            "id": "c5683d0838a705ba",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "To do"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of To do"
+              "title": "Outline"
             }
           }
         ],
@@ -207,13 +181,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c5683d0838a705ba",
+  "active": "26ef02e631b80585",
   "lastOpenFiles": [
-    "Resources.md",
-    "Notes and requirements.md",
-    "To do.md",
-    "Compose CLI.md",
     "Services/PHP.md",
+    "Resources.md",
+    "To do.md",
+    "Notes and requirements.md",
+    "Compose CLI.md",
     "Services/WordPress.md",
     "Services",
     "Services/MariaDB.md",

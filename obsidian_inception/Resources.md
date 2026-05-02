@@ -2,7 +2,7 @@
 - [luciama2](https://github.com/mxvements/ft_inception/)
 ## Tutorials
 ### General project
-- [Grademe Inception Tutorial](https://tuto.grademe.fr/inception/) (WIP 4. Container MARIADB )
+- [Grademe Inception Tutorial](https://tuto.grademe.fr/inception/) (WIP Let's get to configurin or frined WordPress )
 - [Ssterdev Part 1](https://medium.com/@ssterdev/inception-guide-42-project-part-i-7e3af15eb671)
 - [Ssterdev Part  2](https://medium.com/@ssterdev/inception-42-project-part-ii-19a06962cf3b) note: it does not include the TLS protocol, nor the secrets/env set up or the domain name. Although useful to study, incomplete for the project.
 - [vbachele - Github](https://github.com/vbachele/Inception) 
