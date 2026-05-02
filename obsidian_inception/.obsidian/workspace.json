@@ -13,15 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP.md",
+                "file": "Services/PHP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "PHP"
             }
+          },
+          {
+            "id": "c5683d0838a705ba",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To do.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "To do"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP.md",
+                "file": "To do.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PHP"
+              "title": "Outline of To do"
             }
           }
         ],
@@ -186,13 +207,16 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6ace9bf421af5cb1",
+  "active": "c5683d0838a705ba",
   "lastOpenFiles": [
-    "WordPress.md",
-    "PHP.md",
-    "To do.md",
-    "MariaDB/MariaDB.md",
     "Resources.md",
+    "Notes and requirements.md",
+    "To do.md",
+    "Compose CLI.md",
+    "Services/PHP.md",
+    "Services/WordPress.md",
+    "Services",
+    "Services/MariaDB.md",
     "Docker/Docker Objects/Docker Containers/Docker Container.md",
     "MariaDB",
     "Docker/Docker Objects/Docker Image/Docker Image.md",
@@ -201,7 +225,6 @@
     "SSL TLS",
     "Docker/Docker Objects/Docker Network and Volumes/Docker Network.md",
     "Docker/Docker Objects/Docker Network and Volumes/Docker Volume.md",
-    "Notes and requirements.md",
     "Docker/Docker Objects/Docker Network and Volumes/Bind mount.md",
     "Bind.md",
     "Docker/Docker.md",
@@ -210,7 +233,6 @@
     "Docker/Docker Compose/Docker Compose.md",
     "Docker/Docker Client and Daemon/Docker Daemon.md",
     "Docker/Docker Client and Daemon/Docker CLI.md",
-    "Compose CLI.md",
     "Docker/Docker Objects/Docker Image/Dockerfile.md",
     "Docker/Docker Workflow.canvas",
     "Docker/Docker Containers/Commands for containers.md",
@@ -222,8 +244,6 @@
     "Docker/Docker Compose",
     "Docker/Docker Objects/Docker Containers",
     "Untitled Kanban.md",
-    "Docker",
-    "SSH",
-    "Welcome.md"
+    "Docker"
   ]
 }
