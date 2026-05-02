@@ -5,14 +5,13 @@
 FROM debian:bookworm
 
 # Let's update all the packages
-RUN apt update && apt upgrade
-
-## And install NGINX! (note the -y flag for non-interactive installation)
-RUN apt install nginx -y
+RUN apt update -y && apt upgrade -y
 
 # Let's just install the best text editor in the world and curl
 RUN apt install vim -y && apt install curl -y
 
+## And install NGINX! (note the -y flag for non-interactive installation)
+RUN apt install nginx -y
 
 # ---TLS install---
 
@@ -26,7 +25,7 @@ RUN apt install openssl -y
 RUN openssl req -x509 -nodes \
 	-out /etc/nginx/ssl/inception.crt \
 	-keyout /etc/nginx/ssl/inception.key \
-	-subj "/C=SP/ST=CAM/L=Madrid/0=42/OU=42/CN=acastrov.42.fr/UID=acastrov"
+	-subj "/C=SP/ST=CAM/L=Madrid/O=42/OU=42/CN=acastrov.42.fr/UID=acastrov"
 
 
 # ---NGINX .conf---
@@ -41,6 +40,8 @@ COPY conf/nginx.conf /etc/nginx/nginx.conf
 RUN chmod 755 /var/www/html
 RUN chown -R www-data:www-data /var/www/html
 
-# And let's run this container!
+# And let's run this container! 
+#We set up `-g (global config) daemon off` to keep main process (DIP 1) running in foreground
+# Otherwise, the container will close!
 CMD [ "nginx", "-g", "daemon off;" ]
 

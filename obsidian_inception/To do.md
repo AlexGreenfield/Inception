@@ -6,17 +6,18 @@ kanban-plugin: board
 
 ## To Do
 
+- [ ] Tags to main Docker
 
 
 ## WIP
 
-- [ ] Docker 101
-- [ ] Tags to main Docker
+- [ ] Wordpress
 
 
 ## Done
 
 **Complete**
+- [x] Docker 101
 - [x] Set VM
 
 
