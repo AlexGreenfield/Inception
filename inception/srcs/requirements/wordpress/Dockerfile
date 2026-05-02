@@ -14,3 +14,5 @@ RUN apt-get install -y\
 
 # Let's get wget, a tool that we will need to install WordPress via HTTPS...
 RUN apt-get -y install wget
+
+# ... and download or image of WordPress
