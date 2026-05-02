@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources.md",
+                "file": "MariaDB/MariaDB.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Resources"
+              "title": "MariaDB"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources.md",
+                "file": "MariaDB/MariaDB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Resources"
+              "title": "Outline of MariaDB"
             }
           }
         ],
@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,6 +188,9 @@
   },
   "active": "6ace9bf421af5cb1",
   "lastOpenFiles": [
+    "Resources.md",
+    "MariaDB/MariaDB.md",
+    "MariaDB",
     "Docker/Docker Objects/Docker Containers/Docker Container.md",
     "Docker/Docker Objects/Docker Image/Docker Image.md",
     "SSL TLS/SSL TLS.md",
@@ -195,7 +199,6 @@
     "Docker/Docker Objects/Docker Network and Volumes/Docker Network.md",
     "Docker/Docker Objects/Docker Network and Volumes/Docker Volume.md",
     "Notes and requirements.md",
-    "Resources.md",
     "Docker/Docker Objects/Docker Network and Volumes/Bind mount.md",
     "Bind.md",
     "To do.md",
