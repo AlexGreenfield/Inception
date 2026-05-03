@@ -5,12 +5,7 @@ FROM debian:bookworm
 RUN apt update -y && apt upgrade -y
 
 
-# Let's get php and mariadb-clien
-RUN apt-get install -y\
-	php7.3\
-	php-fpm\
-	php-mysql\
-	mariadb-client
+# ---Wordpress install---
 
 # Let's get wget, a tool that we will need to install WordPress via HTTPS...
 RUN apt-get -y install wget
@@ -27,5 +22,27 @@ RUN cd /var/www && tar -xzf wordpress-6.9.3.tar.gz && rm wordpress-6.9.3.tar.gz
 # And give it the proper permissions
 RUN chown -R root:root /var/www/wordpress
 
+
+# ---PHP install---
+
+# Let's get php and mariadb-clien
+RUN apt-get install -y\
+	php7.3\
+	php-fpm\
+	php-mysql\
+
 COPY conf/www.conf.in /etc/php/8.2/fpm/pool.d/www.conf
+
+# ---WordPress CLI install---
+
+# Let's download the repo for WP-CLI and install the binaries
+RUN wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+RUN chmod +x wp-cli.phar
+RUN mv wp-cli.phar /usr/local/bin/wp
+
+
+
+# --- MariaDB client---
+
+RUN apt-get install -y mariadb-client
 
