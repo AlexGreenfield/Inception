@@ -45,7 +45,7 @@ RUN mv wp-cli.phar /usr/local/bin/wp
 RUN apt-get install -y mariadb-client
 
 # ---Set up the script and run it---
-COPY conf/auto_config.sh /auto_config.sh
+COPY tools/auto_config.sh /auto_config.sh
 RUN chmod +x /auto_config.sh
 
 CMD ["/auto_config.sh"]
