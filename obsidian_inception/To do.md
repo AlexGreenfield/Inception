@@ -11,12 +11,13 @@ kanban-plugin: board
 
 ## WIP
 
-- [ ] Wordpress
+- [ ] Docker Compose
 
 
 ## Done
 
 **Complete**
+- [x] Wordpress
 - [x] Docker 101
 - [x] Set VM
 

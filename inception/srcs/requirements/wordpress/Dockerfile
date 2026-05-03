@@ -27,9 +27,9 @@ RUN chown -R root:root /var/www/wordpress
 
 # Let's get php and mariadb-clien
 RUN apt-get install -y\
-	php7.3\
+	php8.2\
 	php-fpm\
-	php-mysql\
+	php-mysql
 
 COPY conf/www.conf.in /etc/php/8.2/fpm/pool.d/www.conf
 
@@ -41,8 +41,13 @@ RUN chmod +x wp-cli.phar
 RUN mv wp-cli.phar /usr/local/bin/wp
 
 
-
 # --- MariaDB client---
-
 RUN apt-get install -y mariadb-client
+
+# ---Set up the script and run it---
+COPY conf/auto_config.sh /auto_config.sh
+RUN chmod +x /auto_config.sh
+
+CMD ["/auto_config.sh"]
+
 
