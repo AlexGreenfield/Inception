@@ -12,7 +12,7 @@ services:
       - db_root_password
     volumes:
       - mariadb:/var/lib/mysql
-    restart: unless-stopped
+    restart: always
     expose:
       - "3306"
   nginx:
@@ -29,7 +29,7 @@ services:
     env_file: .env
     ports:
     - "443:443"
-    restart: on-failure
+    restart: always
   wordpress:
     container_name: wordpress
     volumes:
@@ -47,7 +47,7 @@ services:
       - wp_user_password
     depends_on:
       - mariadb
-    restart: on-failure
+    restart: always
     expose:
       - "9000"
 volumes:
