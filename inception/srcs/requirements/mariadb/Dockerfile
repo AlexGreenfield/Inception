@@ -19,3 +19,10 @@ RUN chmod +x /init_db.sh
 
 # And run it at entrypoint
 CMD ["/init_db.sh"]
+
+# Finally, let's copy the script for setting up MariaDB
+#COPY tools/script.sh /script.sh
+#RUN chmod +x /script.sh
+
+# And run it at entrypoint
+#CMD ["/script.sh"]
