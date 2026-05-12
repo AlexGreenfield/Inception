@@ -58,7 +58,7 @@ volumes:
       o: 'bind'
       # Change login for your username
       #device: '/home/login/data/wordpress'
-      device: '/home/alejandro/data/wordpress'
+      device: '/home/acastrov/data/wordpress'
   mariadb:
     driver: local
     driver_opts:
@@ -66,7 +66,7 @@ volumes:
       o: 'bind'
       # Change login for your username
       #device: '/home/login/data/wordpress'
-      device: '/home/alejandro/data/mariadb'
+      device: '/home/acastrov/data/mariadb'
 networks:
   inception:
     driver: bridge

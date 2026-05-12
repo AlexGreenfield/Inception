@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Correction guidelines.md",
+                "file": "Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Correction guidelines"
+              "title": "Resources"
             }
           }
         ]
@@ -186,8 +186,10 @@
   },
   "active": "26ef02e631b80585",
   "lastOpenFiles": [
-    "Resources.md",
+    "Inception Architecture.png",
+    "Untitled-2026-03-06-1410.excalidraw",
     "Correction guidelines.md",
+    "Resources.md",
     "Docker/Docker Compose/Docker Compose.md",
     "To do.md",
     "Services/PHP.md",
@@ -220,8 +222,6 @@
     "Docker/Docker Objects/Docker Image",
     "Docker/Docker Client and Daemon",
     "Docker/Docker Compose",
-    "Docker/Docker Objects/Docker Containers",
-    "Untitled Kanban.md",
-    "Docker"
+    "Docker/Docker Objects/Docker Containers"
   ]
 }

@@ -1,6 +1,6 @@
 DOCKERCOMPOSE_PATH = ./srcs/docker-compose.yml
 # Change for login
-VOLUMES_PATH = /home/alejandro/data
+VOLUMES_PATH = /home/acastrov/data
 
 all : setup
 	sudo docker compose -f $(DOCKERCOMPOSE_PATH) up --build
